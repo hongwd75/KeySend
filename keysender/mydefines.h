@@ -1,0 +1,25 @@
+#pragma once
+enum KeyBindSTATE
+{
+	none = 0,
+	KEYBOARD_BIND = 1,
+	MOUSE_BIND
+};
+enum BINDKIND
+{
+	DELAY = 0,
+	KEYBOARD = 1,
+	MOUSECLICK = 2,
+	MOSEMOVE =3,
+	MOSEDRAG = 4,
+	CLEAR_ALL_ACTIVE_ACTION,
+};
+
+enum BIND_MOUSEBUTTONKIND
+{
+	BTN_LEFT = 1,
+	BTN_RIGHT = 2,
+	BTN_MIDDLE = 3,
+	BTN_4 = 4,
+	BTN_5 = 5,
+};

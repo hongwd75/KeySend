@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{ca2d8754-3d39-4807-bf57-d085b14c552f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{63bb6c51-10a8-4dc1-ace5-9f52c4b6419c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="파일변경감지">
+      <UniqueIdentifier>{175d81ff-77d5-4721-867d-adb273606fc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keysender.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keysenderDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="macroObject.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="macroObjectManager.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualCode.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="BindKeySetDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mydefines.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="inputObjectDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="castHelperDLG.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayedDirectoryChangeHandler.h">
+      <Filter>파일변경감지</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryChanges.h">
+      <Filter>파일변경감지</Filter>
+    </ClInclude>
+    <ClInclude Include="myDirectoryChangeHandler.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keysender.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keysenderDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="macroObject.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="macroObjectManager.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="keysenderDlg_EventCapture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keysenderDlg_winDetect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keysenderDlg_GETMESSAGE_hook.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BindKeySetDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualCode.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="inputObjectDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenImage.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="castHelperDLG.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayedDirectoryChangeHandler.cpp">
+      <Filter>파일변경감지</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryChanges.cpp">
+      <Filter>파일변경감지</Filter>
+    </ClCompile>
+    <ClCompile Include="myDirectoryChangeHandler.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="keysender.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\keysender.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\searchw.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\keysender.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\findere.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\finderf.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

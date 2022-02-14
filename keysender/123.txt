@@ -1,0 +1,21 @@
+{
+	"list":	[{
+			"title":	"새로운 바인드",
+			"type":	"keyboard",
+			"bind":	"NUMPAD2",
+			"repeat":	1,
+			"casthelpkey":	0,
+			"keys":	[{
+					"delay":	10000
+				}]
+		}, {
+			"title":	"새로운 바인드",
+			"type":	"keyboard",
+			"bind":	"NUMPAD1",
+			"repeat":	0,
+			"casthelpkey":	0,
+			"keys":	[{
+					"delay":	10000
+				}]
+		}]
+}
